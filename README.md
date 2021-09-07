@@ -8,7 +8,7 @@
 
 ## Создание объекта библиотеки
 ```php
-$authClient = new ZMTechAPI\Clients\AuthClient($id, $password); // Создаем клиента для последующих запросов
+$authClient = new ZMTechAPI\Clients\AuthClient($id, $password, $baseUri = 'https://api.zmtech.ru:7778/v1'); // Создаем клиента для последующих запросов
 $zm_tech = new ZMTechAPI\ZMTech($authClient); // Создаем экземпляр библиотеки
 ```
 
