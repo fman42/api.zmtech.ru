@@ -1,0 +1,21 @@
+{
+    "name": "zmtech/api.zmtech.ru",
+    "description": "A library for working with API api.zmtech.ru",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "fman42",
+            "email": "igrok5554545@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "ZMTechAPI\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.6"
+    }
+}
