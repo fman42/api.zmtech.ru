@@ -6,6 +6,11 @@
 Для работы вам необходимы пользовательские данные (id и password).
 Полное описание методов и сущностей вы можете посмотреть в http://docs.zazumedia.ru
 
+Установить с помощью **Composer**
+``
+composer require zmtech/api.zmtech.ru 
+``
+
 ## Создание объекта библиотеки
 ```php
 $authClient = new ZMTechAPI\Clients\AuthClient($id, $password, $baseUri = 'https://api.zmtech.ru:7778/v1'); // Создаем клиента для последующих запросов
