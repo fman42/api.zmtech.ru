@@ -60,3 +60,7 @@ $smsNeutral = $zm_tech->get('sms')->sendNeutralSms([
 ```php
 $statuses = $zm_tech->get('status')->getStatuses();
 ```
+
+## Возвращаемый объект
+
+Все методы API возвращают объект `APIResponse`, который содержит в себе HTTP-код ответа, bool-флаг пройденной операции и описание ошибки
